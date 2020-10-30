@@ -2,7 +2,7 @@
 
 
 
-Welscome to NIH STRIDES-Codes/subject-sample-search.
+Welcome to NIH STRIDES-Codes/subject-sample-search.
 
 This codeathon project will explore existing technologies to search subjects and sample data based clinical, phenotypic and other attributes of subjects and sampes. We hope to explore the GA4GH Discovery Search API, BigQuery and FHIR.
 
