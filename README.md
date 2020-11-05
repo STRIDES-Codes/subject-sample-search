@@ -25,3 +25,7 @@ These allow search of subject and sample data from projects with corresponding g
 ## FHIR
 
 The Kids First FHIR Server provides a [data dashboard](https://ncpi-api-fhir-service-dev.kidsfirstdrc.org/dashboard/) and [API endpoint](https://ncpi-api-fhir-service-dev.kidsfirstdrc.org/) to query data from the Kids First initiative. Queries allow links to GA4GH DRS ids to locate genomic data files.
+
+Some search queries that may be useful here: https://docs.google.com/presentation/d/1Vdd1uVitm4H0yx3OkCODJir8dIltki2IGJtZpxddtxw/edit#slide=id.g88f2892937_5_26. 
+
+The full FHIR search spec is here: https://www.hl7.org/fhir/search.html.
