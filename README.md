@@ -29,3 +29,9 @@ The Kids First FHIR Server provides a [data dashboard](https://ncpi-api-fhir-ser
 Some search queries that may be useful here: https://docs.google.com/presentation/d/1Vdd1uVitm4H0yx3OkCODJir8dIltki2IGJtZpxddtxw/edit#slide=id.g88f2892937_5_26. 
 
 The full FHIR search spec is here: https://www.hl7.org/fhir/search.html.
+
+## dbGaP
+
+As a database with a rich source of diverse datasets dbGaP is a good test for the use cases GA4GH Search and FHIR are trying to address. To work with it effectively a data scientist needs to be able to discover the fields, codes and structure of data set. The following diagram shows how scrambled representations of dbGaP data have been made available through GA4GH Search making use of the machine readable descriptions (schema) of the data provided by the submitters.
+
+![schemaflow](/Users/forei/dev/subject-sample-search/doc/images/schemaflow.jpg)
