@@ -82,12 +82,15 @@ class DiscoverySearchClient:
 	def listCatalog(self, catalog):
 		self.listTables(catalog)
 
-	def listTableInfo(self, table):
+	def listTableInfo(self, table, returnType=None):
 		url = "{}/table/{}/info".format(self.hostURL,table)
-		print ("_Schema for table{}_".format(table))
+		print ("_Schema properties for table {}_".format(table))
 		response = requests.get(url, headers=self.headers)
 		result = (response.json())
-		pprint.pprint(result)
+		if returnType == 'json':
+			return result
+		else:
+			pprint.pprint(result)
 
 	def runOneTableQuery(self, column_list, table, limit):
 		col_string = ", ".join(column_list)
