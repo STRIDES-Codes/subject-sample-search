@@ -6,6 +6,8 @@ Welscome to NIH STRIDES-Codes/subject-sample-search.
 
 This codeathon project will explore existing technologies to search subjects and sample data based clinical, phenotypic and other attributes of subjects and sampes. We hope to explore the GA4GH Discovery Search API, BigQuery and FHIR.
 
+The fasp_in branch contains the working code for the codeathon. This was created from a branch in [fasp-scripts](https://github.com/ga4gh/fasp-scripts/tree/master/fasp). That project provides some context for how a Search API might be used with file access and workflow executiion services to compute on biomedical data.
+
 ## GA4GH Search
 
 [GA4GH Search](https://github.com/ga4gh-discovery/ga4gh-search) is a new API specification recently been submitted for approval. A reference implementation is available from DNAStack. Search provides the capability to make available data from multiple data technologies such as json, FHIR, Phenopackets and sql databases. 
