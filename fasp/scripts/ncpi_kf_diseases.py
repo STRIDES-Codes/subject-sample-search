@@ -1,4 +1,4 @@
-''' Basic query on NCPI FHIR server Patient resource via DNAStack Search test implementation'''
+''' Get disease terms used in NCPI FHIR server'''
 #  IMPORTS
 import sys 
 import json
